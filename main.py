@@ -15,7 +15,7 @@ def ocr_image(image_path):
 
 if __name__ == '__main__':
     # Ścieżka do obrazu
-    image_path = 'sciezka_do_obrazka.png'  # zmień na właściwą ścieżkę do pliku
+    image_path = 'obraz.png'  # zmień na właściwą ścieżkę do pliku
 
     # Wykonaj OCR i wyświetl tekst
     extracted_text = ocr_image(image_path)
